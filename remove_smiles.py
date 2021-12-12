@@ -18,7 +18,9 @@ def	remove_smiles(arr):
 		i += 1
 	return res
 
-def main():
-	print(remove_smiles(":-))()abc:-((("))
 
-main()
+assert remove_smiles(":-))()abc:-(((") == "()abc"
+assert remove_smiles(":-)))") == ""
+assert remove_smiles(":-))():-))") == "()"
+assert remove_smiles("abc:-(((") == "abc"
+assert remove_smiles(":-(((abc") == "abc"
