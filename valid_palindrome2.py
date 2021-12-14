@@ -47,9 +47,6 @@ def	res(s):
 				return False
 	return True
 
-# print(isPalindrome("aba", 0, 2))
-# print(isPalindrome("a", 0, 0))
-# print(isPalindrome("abb", 0, 2))
 assert res("aba") == True
 assert res("abca") == True
 assert res("abc") == False

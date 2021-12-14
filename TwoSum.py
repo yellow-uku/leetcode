@@ -39,7 +39,6 @@ def twoSum(self, nums, target):
 		else:
 			return [hash_map[complement], i]
 
-print(twoSum_1([2,7,11,15], 9))
-print()
+print(twoSum([2,7,11,15], 9))
 
-assert twoSum_1([2,7,11,15], 9) == [0, 1]
+assert twoSum([2,7,11,15], 9) == [0, 1]
